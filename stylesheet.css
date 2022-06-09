@@ -12,7 +12,6 @@
    padding-right: 30px;
    gap: 16px;
    color: white;
-   visited
 }
 .headerlogo {
      margin-right: 900px;
@@ -24,8 +23,48 @@ a:visited {
       color: white;
 }
 .subsection {
-      display: fle
+      background-color: #1F2937;
+      color: white;
+      overflow: hidden;
+      display: flex;
+      align-items: left;
+    justify-content: left;
+    flex-direction: column;
 }
 .img {
+    display: flex;
     border-radius: 8px;
+    height: 300px;
+    width: 600px;
+   padding-left: 1150px;
+   margin-top: -160px;
+   padding-bottom: 50px;
 }
+.maintitle, .mainparagraph,
+.signup {
+     padding-left: 220px;
+}
+.maintitle {
+  font-size: 48px;
+  font-weight: extra-bold;
+   padding-top: 50px;
+}
+.mainparagraph {
+  font-size: 18px;
+}
+.signup {
+  background-color: #3882f6;
+  padding: 10px ;
+  border: none;
+  border-radius: 8px;
+  width: 120px;
+  margin-left: 220px;
+  margin-top: 8px;
+}
+.mainparagraph {
+    inline-size: 500px;
+}
+
+  
+ 
+
