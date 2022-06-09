@@ -130,6 +130,36 @@ a:visited {
     font-weight: 900;
     left: 250px;
     position: relative;
+}
+.actionheader {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 600px;
+    margin-bottom: 50px;
+    width: 800px;
+    border: 5px;
+    border-radius: 8px;
+    border-style: solid;     
+    border-color: #3882f6;
+    background-color: #3882f6;
+    color: white;
+    
+}
+.header {
+      right: 184px;
+      position: relative;
+      margin-bottom: -15px;
+}
+.anotherbutton {
+     color: white;
+     background-color: #3882f6;
+     border-radius: 8px;
+     border-color: white;
+}
+
     
  
 
